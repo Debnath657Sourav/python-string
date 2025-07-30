@@ -5,6 +5,6 @@ def is_palindrome(s):
             return False
     return True
 
-# Example
+
 s = "racecar"
 print("Palindrome" if is_palindrome(s) else "Not Palindrome")
