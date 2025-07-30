@@ -2,7 +2,7 @@ def check_sorted_and_rotated(arr):
     n = len(arr)
     count = 0
     for i in range(n):
-        if arr[i] > arr[(i + 1) % n]:  # Compare with next (circular)
+        if arr[i] > arr[(i + 1) % n]: 
             count += 1
             if count > 1:
                 return False
