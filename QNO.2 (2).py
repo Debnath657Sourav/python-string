@@ -1,5 +1,5 @@
 def largestElement(arr):
-    max_val = arr[0]       # Assume first element is largest
+    max_val = arr[0]      
     for num in arr[1:]:
         if num > max_val:
             max_val = num
